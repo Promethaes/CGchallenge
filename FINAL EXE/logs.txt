@@ -1,0 +1,166 @@
+[2020-03-18 14:52:34.069] [APP] [trace] Loading mesh from 'paddle.obj'
+[2020-03-18 14:52:34.078] [APP] [trace] 	Loaded data, starting post-processing
+[2020-03-18 14:52:34.079] [APP] [trace] 	Computing TBN matrices...
+[2020-03-18 14:52:34.080] [APP] [trace] Loading mesh from 'ball.obj'
+[2020-03-18 14:52:34.092] [APP] [trace] 	Loaded data, starting post-processing
+[2020-03-18 14:52:34.094] [APP] [trace] 	Computing TBN matrices...
+[2020-03-18 14:52:34.096] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.101] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.102] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.102] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.103] [APP] [trace] 		Detected a new uniform: a_Model[1](0) -> Mat4
+[2020-03-18 14:52:34.103] [APP] [trace] 		Detected a new uniform: a_ModelViewProjection[1](1) -> Mat4
+[2020-03-18 14:52:34.103] [APP] [trace] 		Detected a new uniform: a_NormalMatrix[1](2) -> Mat3
+[2020-03-18 14:52:34.103] [APP] [trace] 		Detected a new uniform: s_Albedo[1](3) -> Tex2D
+[2020-03-18 14:52:34.104] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.104] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.106] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.106] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.106] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: a_EmissiveStrength[1](0) -> Float
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: a_Model[1](1) -> Mat4
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: a_ModelViewProjection[1](2) -> Mat4
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: a_NormalMatrix[1](3) -> Mat3
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: s_Albedo[1](4) -> Tex2D
+[2020-03-18 14:52:34.107] [APP] [trace] 		Detected a new uniform: s_Emissive[1](5) -> Tex2D
+[2020-03-18 14:52:34.107] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.116] [APP] [info] Maximum texture size on this renderer is 32768 texels
+[2020-03-18 14:52:34.116] [APP] [info] Maximum number of samples is 32
+[2020-03-18 14:52:34.223] [APP] [info] Deleting texture with ID: 6
+[2020-03-18 14:52:34.224] [APP] [info] Deleting texture with ID: 7
+[2020-03-18 14:52:34.224] [APP] [info] Deleting texture with ID: 5
+[2020-03-18 14:52:34.225] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.226] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.226] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.227] [APP] [trace] 		Detected a new uniform: a_ModelViewProjection[1](0) -> Mat4
+[2020-03-18 14:52:34.227] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.228] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.229] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.229] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.229] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.230] [APP] [trace] 		Detected a new uniform: a_Mask[1](0) -> Tex2D
+[2020-03-18 14:52:34.230] [APP] [trace] 		Detected a new uniform: a_ModelViewProjection[1](1) -> Mat4
+[2020-03-18 14:52:34.230] [APP] [trace] 		Detected a new uniform: a_OutputResolution[1](2) -> Float2
+[2020-03-18 14:52:34.231] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.232] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.241] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.242] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.244] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.246] [APP] [trace] 		Detected a new uniform: a_Bias[1](0) -> Float
+[2020-03-18 14:52:34.248] [APP] [trace] 		Detected a new uniform: a_LightAttenuation[1](1) -> Float
+[2020-03-18 14:52:34.248] [APP] [trace] 		Detected a new uniform: a_LightColor[1](2) -> Float3
+[2020-03-18 14:52:34.249] [APP] [trace] 		Detected a new uniform: a_LightDir[1](3) -> Float3
+[2020-03-18 14:52:34.250] [APP] [trace] 		Detected a new uniform: a_LightPos[1](4) -> Float3
+[2020-03-18 14:52:34.251] [APP] [trace] 		Detected a new uniform: a_LightView[1](5) -> Mat4
+[2020-03-18 14:52:34.254] [APP] [trace] 		Detected a new uniform: a_MatShininess[1](6) -> Float
+[2020-03-18 14:52:34.255] [APP] [trace] 		Detected a new uniform: a_ProjectionInv[1](7) -> Mat4
+[2020-03-18 14:52:34.257] [APP] [trace] 		Detected a new uniform: b_IsProjector[1](8) -> Bool
+[2020-03-18 14:52:34.260] [APP] [trace] 		Detected a new uniform: s_CameraDepth[1](9) -> Tex2D
+[2020-03-18 14:52:34.261] [APP] [trace] 		Detected a new uniform: s_GNormal[1](10) -> Tex2D
+[2020-03-18 14:52:34.263] [APP] [trace] 		Detected a new uniform: s_Projection[1](11) -> Tex2D
+[2020-03-18 14:52:34.264] [APP] [trace] 		Detected a new uniform: s_ShadowDepth[1](12) -> Tex2D
+[2020-03-18 14:52:34.265] [APP] [trace] 		Detected a new uniform: xScreenRes[1](13) -> Int2
+[2020-03-18 14:52:34.266] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.269] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.271] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.272] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.272] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.274] [APP] [trace] 		Detected a new uniform: a_LightAttenuation[1](0) -> Float
+[2020-03-18 14:52:34.276] [APP] [trace] 		Detected a new uniform: a_LightColor[1](1) -> Float3
+[2020-03-18 14:52:34.277] [APP] [trace] 		Detected a new uniform: a_LightPos[1](2) -> Float3
+[2020-03-18 14:52:34.277] [APP] [trace] 		Detected a new uniform: a_MatShininess[1](3) -> Float
+[2020-03-18 14:52:34.279] [APP] [trace] 		Detected a new uniform: a_ProjectionInv[1](4) -> Mat4
+[2020-03-18 14:52:34.280] [APP] [trace] 		Detected a new uniform: s_CameraDepth[1](5) -> Tex2D
+[2020-03-18 14:52:34.281] [APP] [trace] 		Detected a new uniform: s_GNormal[1](6) -> Tex2D
+[2020-03-18 14:52:34.281] [APP] [trace] 		Detected a new uniform: xScreenRes[1](7) -> Int2
+[2020-03-18 14:52:34.282] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.282] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.283] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.284] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.284] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.285] [APP] [trace] 		Detected a new uniform: a_Exposure[1](0) -> Float
+[2020-03-18 14:52:34.286] [APP] [trace] 		Detected a new uniform: a_GColor[1](1) -> Tex2D
+[2020-03-18 14:52:34.286] [APP] [trace] 		Detected a new uniform: a_GEmissive[1](2) -> Tex2D
+[2020-03-18 14:52:34.287] [APP] [trace] 		Detected a new uniform: a_HdrLightAccum[1](3) -> Tex2D
+[2020-03-18 14:52:34.287] [APP] [trace] 		Detected a new uniform: xScreenRes[1](4) -> Int2
+[2020-03-18 14:52:34.288] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.290] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.291] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.292] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.292] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.292] [APP] [trace] 		Detected a new uniform: a_BloomThreshold[1](0) -> Float
+[2020-03-18 14:52:34.293] [APP] [trace] 		Detected a new uniform: xImage[1](1) -> Tex2D
+[2020-03-18 14:52:34.293] [APP] [trace] 		Detected a new uniform: xScreenRes[1](2) -> Int2
+[2020-03-18 14:52:34.294] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.295] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.299] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.300] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.300] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.301] [APP] [trace] 		Detected a new uniform: isHorizontal[1](0) -> Bool
+[2020-03-18 14:52:34.301] [APP] [trace] 		Detected a new uniform: xImage[1](1) -> Tex2D
+[2020-03-18 14:52:34.302] [APP] [trace] 		Detected a new uniform: xScreenRes[1](2) -> Int2
+[2020-03-18 14:52:34.302] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.303] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.304] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.305] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.305] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.306] [APP] [trace] 		Detected a new uniform: isHorizontal[1](0) -> Bool
+[2020-03-18 14:52:34.306] [APP] [trace] 		Detected a new uniform: xImage[1](1) -> Tex2D
+[2020-03-18 14:52:34.306] [APP] [trace] 		Detected a new uniform: xScreenRes[1](2) -> Int2
+[2020-03-18 14:52:34.307] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.308] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.310] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.311] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.311] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.312] [APP] [trace] 		Detected a new uniform: a_Image1[1](0) -> Tex2D
+[2020-03-18 14:52:34.312] [APP] [trace] 		Detected a new uniform: a_Image2[1](1) -> Tex2D
+[2020-03-18 14:52:34.312] [APP] [trace] 		Detected a new uniform: xScreenRes[1](2) -> Int2
+[2020-03-18 14:52:34.313] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.314] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.315] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.315] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.315] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.315] [APP] [trace] 		Detected a new uniform: a_CurrentDepth[1](0) -> Tex2D
+[2020-03-18 14:52:34.316] [APP] [trace] 		Detected a new uniform: a_PrevViewProjection[1](1) -> Mat4
+[2020-03-18 14:52:34.316] [APP] [trace] 		Detected a new uniform: a_ViewProjectionInv[1](2) -> Mat4
+[2020-03-18 14:52:34.317] [APP] [trace] 		Detected a new uniform: xImage[1](3) -> Tex2D
+[2020-03-18 14:52:34.317] [APP] [trace] 		Detected a new uniform: xScreenRes[1](4) -> Int2
+[2020-03-18 14:52:34.318] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.320] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.325] [APP] [trace] Shader part has been compiled!
+[2020-03-18 14:52:34.326] [APP] [trace] Shader has been linked
+[2020-03-18 14:52:34.326] [APP] [info] 	Introspecting Uniforms
+[2020-03-18 14:52:34.327] [APP] [trace] 		Detected a new uniform: a_Aperture[1](0) -> Float
+[2020-03-18 14:52:34.327] [APP] [trace] 		Detected a new uniform: a_Depth[1](1) -> Tex2D
+[2020-03-18 14:52:34.328] [APP] [trace] 		Detected a new uniform: a_FocalDepth[1](2) -> Float
+[2020-03-18 14:52:34.329] [APP] [trace] 		Detected a new uniform: a_LenseDistance[1](3) -> Float
+[2020-03-18 14:52:34.329] [APP] [trace] 		Detected a new uniform: a_ProjectionInv[1](4) -> Mat4
+[2020-03-18 14:52:34.331] [APP] [trace] 		Detected a new uniform: a_Sampler[1](5) -> Tex2D
+[2020-03-18 14:52:34.332] [APP] [trace] 		Detected a new uniform: xScreenRes[1](6) -> Int2
+[2020-03-18 14:52:34.333] [APP] [info] 	Introspecting Uniform Blocks
+[2020-03-18 14:52:34.352] [APP] [info] Deleting frame buffer with ID: 1
+[2020-03-18 14:52:34.353] [APP] [info] Deleting texture with ID: 8
+[2020-03-18 14:52:34.355] [APP] [info] Deleting texture with ID: 10
+[2020-03-18 14:52:34.357] [APP] [info] Deleting texture with ID: 12
+[2020-03-18 14:52:34.358] [APP] [info] Deleting texture with ID: 14
+[2020-03-18 14:52:34.359] [APP] [info] Deleting frame buffer with ID: 2
+[2020-03-18 14:52:34.359] [APP] [info] Deleting texture with ID: 9
+[2020-03-18 14:52:34.359] [APP] [info] Deleting texture with ID: 11
+[2020-03-18 14:52:34.360] [APP] [info] Deleting texture with ID: 13
+[2020-03-18 14:52:34.360] [APP] [info] Deleting texture with ID: 15
+[2020-03-18 14:52:46.456] [APP] [info] Deleting frame buffer with ID: 5
+[2020-03-18 14:52:46.457] [APP] [info] Deleting texture with ID: 5
+[2020-03-18 14:52:46.458] [APP] [info] Deleting mesh with ID: 4
+[2020-03-18 14:52:46.459] [APP] [info] Deleting frame buffer with ID: 6
+[2020-03-18 14:52:46.459] [APP] [info] Deleting texture with ID: 6
+[2020-03-18 14:52:46.460] [APP] [info] Deleting frame buffer with ID: 7
+[2020-03-18 14:52:46.460] [APP] [info] Deleting texture with ID: 7
+[2020-03-18 14:52:46.461] [APP] [info] Deleting frame buffer with ID: 8
+[2020-03-18 14:52:46.461] [APP] [info] Deleting texture with ID: 24
+[2020-03-18 14:52:46.462] [APP] [info] Deleting frame buffer with ID: 9
+[2020-03-18 14:52:46.462] [APP] [info] Deleting texture with ID: 25
+[2020-03-18 14:52:46.462] [APP] [info] Deleting frame buffer with ID: 10
+[2020-03-18 14:52:46.463] [APP] [info] Deleting texture with ID: 26
+[2020-03-18 14:52:46.463] [APP] [info] Deleting frame buffer with ID: 11
+[2020-03-18 14:52:46.464] [APP] [info] Deleting texture with ID: 27
+[2020-03-18 14:52:46.465] [APP] [info] Deleting mesh with ID: 5
